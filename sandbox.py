@@ -1,6 +1,7 @@
 import numpy as np
 
-def random_predict(number:int=1) -> int:
+
+def random_predict(number: int = 1) -> int:
     """Multiline comment
     """
     count = 0
@@ -9,9 +10,7 @@ def random_predict(number:int=1) -> int:
         predict_number = np.random.randint(1, 101)
         if number == predict_number:
             break
-    return(count)
+    return count
+
 
 print(f'Tryouts: {random_predict()}')
-
-dfgdfggdfg
-
